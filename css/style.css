@@ -1,0 +1,35 @@
+.home_page {
+    font-size: 25pt;
+    font-weight: bold;
+    color: rgba(199, 23, 227, 0.742);
+}
+
+#lesson_number {
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.lessons {
+    font-size: 15pt;
+    font-weight: bold;
+    color: rgba(199, 23, 227, 0.742);
+}
+
+.bullet_point_head {
+    font-size: 18pt;
+}
+
+.bullet_point {
+    font-size: 15pt;
+}
+
+#external_style_example {
+    background-color: blue;
+    color: white;
+}
+
+.hl {
+    font-style: oblique;
+    font-weight: bold;
+    color: red;
+}
