@@ -19,17 +19,35 @@
 
         <p class="bullet_point_head">There are three styling methods</p>
             <ul class="bullet_point">
-                <li>Inline Method - Not best practice</li>
-                    <h1 style="background-color: red; color: white">Inline Styling</h1>
+                <li>
+                    Inline Method - The CSS style is applied directly to the HTML element. <br>
+                    In the case of multiples of the same element with the same styling <br>
+                    there would be plenty of unneccessary repeated code <br>
+                    (Not best practice)
+                </li>
+                <h1 style="background-color: red; color: white">Inline Styling</h1>
     
-                <li>Internal Method - Not best practice</li>
-                    <h2>Internal Styling</h2>
-                    <h2>Internal Styling</h2>
-                    <h2>Internal Styling</h2>
-                    <h2>Internal Styling</h2>
+                <li>
+                    Internal Method - The CSS code is written inside style tags, inside the head tags of the HMTL code. <br>
+                    Although this is better than the inline method it is still only applicable withing the same file, <br>
+                    in the case of a big project, this code would have to be repeated in various files. <br>
+                    (Not best practice)
+                </li>
+                <h2>Internal Styling</h2>
+                <h2>Internal Styling</h2>
+                <h2>Internal Styling</h2>
+                <h2>Internal Styling</h2>
     
-                <li>External Method - Preferred Method</li>
-                    <h3 id="external_style_example">External Styling</h3>
+                <li>
+                    External Method - Using the external method requires two things: <br>
+                    First create a .css file where the CSS styling code will be written. <br>
+                    Secondly, link the .css file with the file where the styling will be applied, <br>
+                    using the link tags at the head of the HTML code. <br>
+                    Advantages of using this method are that the code will be easier to locate in case of a change, <br>
+                    and one block of code can work for various documents avoiding repetition of code. <br><br>
+                    Preferred Method
+                </li>
+                <h3 id="external_style_example">External Styling</h3>
             </ul>
 
     </body>

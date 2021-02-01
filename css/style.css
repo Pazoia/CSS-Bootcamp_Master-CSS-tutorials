@@ -1,3 +1,7 @@
+html {
+    background: rgb(247, 218, 50);
+}    
+
 .home_page {
     font-size: 25pt;
     font-weight: bold;
@@ -6,7 +10,6 @@
 
 #lesson_number {
     font-size: 15pt;
-    font-weight: bold;
 }
 
 .lessons {
