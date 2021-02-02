@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <a class="home_page" href="../index.html">Home page</a>
+
+</head>
+<body>
+    <h1>CSS Combinators</h1>
+
+    <p class="bullet_point_head">A combinator defines the relationship between selectors.</p>
+    <p class="bullet_point_head">There are 4 types of CSS Combinators</p>
+
+    <ul class="bullet_point">
+        <li>
+            Descendant(parent followed by element) - Matches all dependant elements of specified element. <br>
+            section p {} <br>
+            This would apply the styling to all p elements under section.            
+        </li>
+        <br>
+        <li>
+            Child( > ) - The child combinator selects all immediate children of specified element. <br>
+            <br>
+            section> <br>
+            p> Paragraph 1 /p> <br>
+            ...div> <br>
+            ...p> Nested Paragraph 2 /p> <br>
+            .../div> <br>
+            p> Paragraph 3 /p> <br>
+            /section> <br>
+            <br>
+            section > p {} <br>
+            In this case the styling would be applied to Paragraphs 1 and 3, <br>
+            Nested Paragraph 2 is nested in a div, therefore not an immediate child of section.
+        </li>
+        <br>
+        <li>
+            Adjacent sibling( + ) - This selects the following immediate sibling of a specified element. <br>
+            <br>
+            section> <br>
+            h1>Heading /h1> <br>
+            p> Paragraph 1 /p> <br>
+            ...div> <br>
+            ...p> Nested Paragraph 2 /p> <br>
+            .../div> <br>
+            p> Paragraph 3 /p> <br>
+            /section> <br>
+            <br>
+            h1 + p {} <br>
+            In this case the styling would be applied to Paragraph 1 only, <br>
+            it's the h1 immediate following sibling.
+        </li>
+        <br>
+        <li>
+            General sibling( ~ ) - This selects all siblings placed after a specified element. <br>
+            <br>
+            section> <br>
+            h1>Heading /h1> <br>
+            p> Paragraph 1 /p> <br>
+            ...div> <br>
+            ...p> Nested Paragraph 2 /p> <br>
+            .../div> <br>
+            p> Paragraph 3 /p> <br>
+            /section> <br>
+            <br>
+            h1 ~ p {} <br>
+            In this case the styling would be applied to Paragraphs 1 and 3, <br>
+            Nested Paragraph 2 is nested in a div, therefore not a sibling of h1.
+
+        </li>
+    </ul>
+</body>
+</html>
