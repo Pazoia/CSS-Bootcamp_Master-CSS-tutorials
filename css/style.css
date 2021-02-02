@@ -1,11 +1,12 @@
 html {
-    background: rgb(247, 218, 50);
+    background: rgb(47, 61, 80);
+    color: white;
 }    
 
 .home_page {
     font-size: 25pt;
     font-weight: bold;
-    color: rgba(199, 23, 227, 0.742);
+    color: rgb(133, 145, 161);
 }
 
 #lesson_number {
@@ -15,7 +16,7 @@ html {
 .lessons {
     font-size: 15pt;
     font-weight: bold;
-    color: rgba(199, 23, 227, 0.742);
+    color: rgb(133, 145, 161);
 }
 
 .bullet_point_head {
