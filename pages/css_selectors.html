@@ -11,7 +11,56 @@
     <body>
         <h1>CSS Selectors</h1>
 
-        <p class="bullet_point">CSS selectors can be </p>
+        <ul class="bullet_point">
+            <li>
+                Precedence in order of importance: <br>
+                element with parent element has higher precedence than just the element. <br>
+                ul li {} will override li {} <br><br>
+                class selection has higher precedence than element selection. <br>
+                .item {} will override ul {} <br><br>
+                id selection has the highest precedence than all the others. <br>
+                #item {} will override .beer {} <br>
+                #item {} will override h1 {} <br>
+                #item {} will override ul li {} 
+
+            </li>
+            <br>
+            <li>
+                More than one selector can be used in one line, <br>
+                for example if both h1 and h2 require the same CSS styling <br>
+                the block of code would look like: <br><br>
+                h1, h2 { <br>
+                    // styling code inside <br>
+                }
+            </li>
+            <br>
+            <li>
+                To access an element using it's class to select it, <br>
+                type .class followed by curly braces. This will affect all <br>
+                elements with this class. <br><br>
+                h1 class="wine" <br>
+                li class="wine" <br><br>
+                .wine { <br>
+                    // styling code inside <br>
+                } <br><br>
+                In this case both h1 and li would have the same styling.
+            </li>
+            <br>
+            <li>
+                To access an element using it's id to select it, <br>
+                type #id followed by curly braces. This will affect all <br>
+                elements with this id. <br><br>
+                h1 id="beer" <br>
+                li id="beer" <br><br>
+                #beer { <br>
+                    // styling code inside <br>
+                } <br><br>
+                Although the id would also use the same styling for both <br>
+                scenarios like in the case of the class, it is recomended that <br>
+                id is to be used for an individual element styling, whilst class <br>
+                is to be used to style various elements the same way.
+            </li>
+        </ul>
 
     </body>
 </html>
