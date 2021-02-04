@@ -1,7 +1,21 @@
 html {
-    background: rgb(47, 61, 80);
+    background: 
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
+    background-attachment: fixed;
     color: white;
-}    
+}
+
+body {
+    font-family: 'helvetica-neue';
+    margin: 50px auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 .home_page {
     font-size: 25pt;
@@ -9,6 +23,9 @@ html {
     color: rgb(133, 145, 161);
 }
 
+#lesson_number, .lessons {
+    line-height: 40px;
+}
 #lesson_number {
     font-size: 15pt;
 }
@@ -35,5 +52,5 @@ html {
 .hl {
     font-style: oblique;
     font-weight: bold;
-    color: red;
+    color: green;
 }
