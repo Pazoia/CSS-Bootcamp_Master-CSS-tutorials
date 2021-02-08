@@ -17,6 +17,11 @@ body {
     margin-right: 50px;
 }
 
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
 .home_page {
     font-size: 25pt;
     font-weight: bold;
