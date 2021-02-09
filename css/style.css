@@ -33,6 +33,7 @@ h1 {
 }
 #lesson_number {
     font-size: 15pt;
+    list-style: none;
 }
 
 .lessons {
