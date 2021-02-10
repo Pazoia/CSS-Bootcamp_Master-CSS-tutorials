@@ -34,10 +34,11 @@ h2 {
     color: rgb(133, 145, 161);
 }
 
-#lesson_number, .lessons {
+.lessonNumber, .lessons {
     line-height: 40px;
 }
-#lesson_number {
+
+.lessonNumber {
     font-size: 15pt;
     list-style: none;
 }
