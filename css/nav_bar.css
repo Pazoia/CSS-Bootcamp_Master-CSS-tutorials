@@ -64,7 +64,7 @@ nav ul {
 }
 
 .dropdownBackground.open {
-    opacity: 1;
+    opacity: 0.5;
 }
 
 .arrow {
@@ -72,15 +72,15 @@ nav ul {
     width: 20px;
     height: 20px;
     display: block;
-    background: rgba(133, 145, 161, 0.5);
+    background: rgba(133, 145, 161, 1);
     transform: translateY(-50%) rotate(45deg);
 }
 
-.cssLevels {
+.basics, .advanced {
     min-width: 400px;
 }
 
-.cssLevels li {
+.basics li, .advanced li {
     padding: 10px 0;
     display: block;
     border-bottom: 1px solid rgba(0,0,0,0.2);
