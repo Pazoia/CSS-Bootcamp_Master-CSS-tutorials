@@ -23,6 +23,11 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
 .home_page {
     font-size: 25pt;
     font-weight: bold;
