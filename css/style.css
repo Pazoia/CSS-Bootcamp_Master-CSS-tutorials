@@ -1,5 +1,16 @@
 html {
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+} 
+
+body {
+    margin: 0;
+    min-height: 100vh;
     background: 
     radial-gradient(black 15%, transparent 16%) 0 0,
     radial-gradient(black 15%, transparent 16%) 8px 8px,
@@ -8,14 +19,6 @@ html {
     background-color: #282828;
     background-size: 16px 16px;
     background-attachment: fixed;
-    color: white;
-}
-
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 50px auto;
-    align-items: center;
-    margin-left: 50px;
 }
 
 h1 {
@@ -30,21 +33,6 @@ h2 {
 
 .home_page {
     font-size: 25pt;
-    font-weight: bold;
-    color: rgb(133, 145, 161);
-}
-
-.lessonNumber, .lessons {
-    line-height: 40px;
-}
-
-.lessonNumber {
-    font-size: 15pt;
-    list-style: none;
-}
-
-.lessons {
-    font-size: 15pt;
     font-weight: bold;
     color: rgb(133, 145, 161);
 }
