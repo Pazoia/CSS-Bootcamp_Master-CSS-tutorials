@@ -1,0 +1,97 @@
+nav {
+    position: relative;
+    perspective: 600px;
+}
+
+.cssBootcamp > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background: rgba(133, 145, 161, 0.5);
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cssBootcamp > li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown {
+    opacity: 1; /* change to 0 */
+    position: absolute;
+    overflow: hidden;
+    padding: 20px;
+    top: -20px;
+    border-radius: 2px;
+    transition: all 0.5s;
+    transform: translateY(100px);
+    will-change: opacity;
+    display: block; /* change to none */
+}
+
+.trigger-enter .dropdown {
+    display: block;
+}
+
+.trigger-enter-active .dropdown {
+    opacity: 1;
+}
+
+.dropdownBackground {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: rgba(133, 145, 161, 0.5);
+    border-radius: 4px;
+    box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
+    transition: all 0.3s, opacity 0.1s, transform 0.2s;
+    transform-origin: 50% 0;
+    display: flex;
+    justify-content: center;
+    opacity: 1; /* change to 0 */
+}
+
+.dropdownBackground.open {
+    opacity: 1;
+}
+
+.arrow {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: rgba(133, 145, 161, 0.5);
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.cssLevels {
+    min-width: 300px;
+}
+
+.cssLevels li {
+    padding: 10px 0;
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.lessonNumber {
+    font-size: 15pt;
+}
+
+.lessons {
+    font-size: 15pt;
+    font-weight: bold;
+    color: rgb(133, 145, 161);
+}
