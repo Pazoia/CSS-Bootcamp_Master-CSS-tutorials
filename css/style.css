@@ -1,4 +1,5 @@
 html {
+    box-sizing: border-box;
     background: 
     radial-gradient(black 15%, transparent 16%) 0 0,
     radial-gradient(black 15%, transparent 16%) 8px 8px,
@@ -11,10 +12,9 @@ html {
 }
 
 body {
-    font-family: 'helvetica-neue';
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 50px auto;
     margin-left: 50px;
-    margin-right: 50px;
 }
 
 h1 {
@@ -42,16 +42,17 @@ h1 {
     color: rgb(133, 145, 161);
 }
 
-.bullet_point_head {
+.lesson-description {
     font-size: 18pt;
 }
 
-.bullet_point {
+.lesson-notes {
+    max-width: 750px;
     background: rgba(135, 145, 159, 0.5);
     border-radius: 15px;
     padding: 30px;
     font-size: 15pt;
-
+    box-shadow: 0 0 5px 6px rgba(0,0,0,0.5);
 }
 
 #external_style_example {
