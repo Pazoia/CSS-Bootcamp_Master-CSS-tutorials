@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
+    padding-top: 50px;
 }
 
 *, *::before, *::after {
@@ -35,6 +36,7 @@ h2 {
     font-size: 25pt;
     font-weight: bold;
     color: rgb(133, 145, 161);
+    padding: 50px;
 }
 
 .lesson-description {
